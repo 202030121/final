@@ -20,7 +20,7 @@ public class Final extends JFrame {
         JPanel panel = new JPanel();
         panel.setLayout(new BorderLayout());
 
-        // 결과 출력 영역
+        // 결과 출력 영역,
         resultArea = new JTextArea();
         resultArea.setEditable(false);
         JScrollPane scrollPane = new JScrollPane(resultArea);
